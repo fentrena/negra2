@@ -72,7 +72,10 @@
             width: 100%;
             height: 100%;
             background-color: transparent;
-            border-radius: 50%;
+        }
+        /* <<< FIX: Apply border-radius only to the spin wheel canvas */
+        #wheelCanvas {
+             border-radius: 50%;
         }
         .pointer {
             position: absolute;
